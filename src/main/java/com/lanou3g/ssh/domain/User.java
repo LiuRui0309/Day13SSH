@@ -8,7 +8,7 @@ public class User {
     private String username;
     private String name;
     private String password;
-    private String repeatPassword;
+
 
     public int getId() {
         return id;
@@ -42,11 +42,4 @@ public class User {
         this.password = password;
     }
 
-    public String getRepeatPassword() {
-        return repeatPassword;
-    }
-
-    public void setRepeatPassword(String repeatPassword) {
-        this.repeatPassword = repeatPassword;
-    }
 }
