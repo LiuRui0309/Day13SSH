@@ -26,6 +26,7 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
 
     public String register() {
         userService.register(user);
+        System.out.println("123456");
         return SUCCESS;
     }
 
